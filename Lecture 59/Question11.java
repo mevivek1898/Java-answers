@@ -15,22 +15,18 @@ import java.util.*;
 public class SetDemo {
 	public static void main(String[] args) {
 		Set<String> namesSet = new HashSet <String> ();
-// write your code here
+		// write your code here
 
-// iterate over the set using iterator and print the output
-for(int i=0;i<args.length;i++) namesSet.add(args[i]);
-
-Iterator<String> iterate = namesSet.iterator();
-
-
-
-while(iterate.hasNext()) {
-	
-	System.out.println(iterate.next());
-	
-}
-
-
+		// iterate over the set using iterator and print the output
 		
+		for(int i=0;i<args.length;i++) namesSet.add(args[i]);
+
+		Iterator<String> iterate = namesSet.iterator();
+
+		while(iterate.hasNext()) {
+	
+		System.out.println(iterate.next());
+	
+		}
 	}
 }
